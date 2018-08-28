@@ -1,8 +1,7 @@
 install:
-  - sudo add-apt-repository universe
-  - sudo apt install python3-proselint
+  - sudo pip install proselint
   - sudo apt install aspell
 
 script:
-  - proselint *.md
+  - proselint README.md
   - cat *.md | aspell --list
