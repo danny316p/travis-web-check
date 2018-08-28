@@ -1,7 +1,7 @@
 # travis-web-check
 
 THis is a quirk and dirty test repository for hte moment, but I have a few goals. The typos in the previous sentence were intentional to test some things, as is the following bad link:
-http://deadlink.google.com
+http://deadlink.google.com/badpath/i_am_making_this_up.html
 This is not very unique.
 
 
