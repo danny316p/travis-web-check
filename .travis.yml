@@ -1,5 +1,5 @@
 install:
-  - sudo pip install proselint
+  - sudo apt install python3-proselint
   - sudo apt-get install aspell
 
 script:
