@@ -1,0 +1,7 @@
+install:
+  - sudo pip install proselint
+  - sudo apt-get install aspell
+
+script:
+  - proselint *.md
+  - cat *.md | aspell --list
