@@ -1,7 +1,7 @@
 install:
   - sudo pip install proselint
-  - sudo apt-get install aspell
-  - sudo apt install lynx
+  - sudo apt install aspell
+  - sudo apt install lynx lynx-cur
 
 script:
   - ./find_problems.sh
