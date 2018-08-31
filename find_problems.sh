@@ -17,7 +17,7 @@ function convert_all_to_markdown() {
 function wrap_command() {
     COMMAND="$@";
     echo "Running $COMMAND";
-    "$COMMAND";
+    bash -c "$COMMAND";
     echo "Completed $COMMAND";
 }
 
