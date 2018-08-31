@@ -17,7 +17,7 @@ function convert_all_to_markdown() {
 function wrap_command() {
     COMMAND="$@";
     echo "Running $COMMAND";
-    `"$COMMAND"`;
+    "$COMMAND";
     echo "Completed $COMMAND";
 }
 
@@ -27,5 +27,6 @@ convert_all_to_markdown "xml";
 
 # Now that we've converted everything to text/markdown, we can run text/markdown tools over the results
 wrap_command "proselint *.md";
+wrap_command "ls";
 wrap_command "cat *.md | aspell --list";
 
