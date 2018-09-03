@@ -3,7 +3,7 @@
 # # the previous command was:
 # git submodule add https://github.com/danny316p/travis-web-check.git
 # # So the command to call this script should then be:
-# travis-web-check/deploy_as_submodule.sh
+# ./travis-web-check/deploy_as_submodule.sh
 
 ln -s ./travis-web-check/.travis.yml .travis.yml
 ln -s ./travis-web-check/find_problems.sh find_problems.sh
