@@ -29,5 +29,5 @@ convert_all_to_markdown "xml";
 # Now that we've converted everything to text/markdown, we can run text/markdown tools over the results
 wrap_command "proselint *.md";
 wrap_command "ls";
-wrap_command "cat *.md | aspell --list";
+wrap_command "cat *.md | aspell --list | sort | uniq";
 
